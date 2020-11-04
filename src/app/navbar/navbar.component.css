@@ -1,0 +1,19 @@
+header{
+    background-color: green;
+    padding: 15px;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px;
+}
+
+a:hover{
+    background-color: tomato;
+}
+
+li {
+    display: inline;
+    margin-right: 100px;
+    }
