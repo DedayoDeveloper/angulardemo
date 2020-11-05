@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
+  elementRef: any;
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor = '#C5C9B8';
   }
 
 }
