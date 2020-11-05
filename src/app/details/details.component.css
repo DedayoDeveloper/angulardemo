@@ -4,3 +4,44 @@ form {
     margin-right: auto;
     text-align: left;
 }
+#addQuestion{
+    background-color: #C5C9B8;
+    width: 100%;
+    color: #333333;
+    height: 150px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 5px 0;
+    align-items: center;
+    justify-content: space-around;
+    display:inline-flex;
+    float: none;
+}
+
+.user-data{
+    background-color: #C5C9B8;
+    width: 400px;
+    justify-content: center;
+
+}
+
+.page{
+    background: #C5C9B8;;
+}
+
+.bankcard{
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0 auto;
+    float: none;
+}
+
+.carddetails{
+    width: 500px;
+    height: 40px;
+}

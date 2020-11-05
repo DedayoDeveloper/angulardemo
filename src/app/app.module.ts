@@ -9,6 +9,10 @@ import { DetailsComponent } from './details/details.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { SigninComponent } from './signin/signin.component';
+import { FormsModule }   from '@angular/forms';
+
+
+
 
 
 @NgModule({
@@ -20,10 +24,15 @@ import { SigninComponent } from './signin/signin.component';
     ContactComponent,
     AboutComponent,
     SigninComponent
+    
+    
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule
+   
     
   
   ],
